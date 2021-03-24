@@ -1,4 +1,4 @@
-import getBrowserType from './utils/brower'
+import getBrowserType from './utils/getBrowerType'
 import getIEversion from './utils/getIEversion'
 import getNavigator from './utils/getNavigator'
 
@@ -7,3 +7,5 @@ export {
     getIEversion,
     getNavigator
 }
+
+

@@ -4,7 +4,12 @@
  * @description: 
  * @updateInfo: 本次更新内容：
  * @Date: 2021-03-24 11:00:59
- * @LastEditTime: 2021-03-24 11:25:22
+ * @LastEditTime: 2021-03-24 14:46:02
+ */
+/**
+ * @description: 获取userAgent对象
+ * @param {null}
+ * @return {navigator.userAgent}
  */
 const getNavigator = ()=> {
     if (!window) {
