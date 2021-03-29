@@ -1,7 +1,7 @@
 {
   "name": "get-browser-version",
-  "version": "0.0.2",
-  "description": "获取浏览器类别、版本、360浏览器等当前模式（极速、兼容）",
+  "version": "0.0.8",
+  "description": "获取浏览器类别;获取浏览器当前模式（极速、兼容）",
   "main": "index.js",
   "directories": {
     "test": "test"

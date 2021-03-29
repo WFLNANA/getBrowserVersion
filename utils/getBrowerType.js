@@ -1,13 +1,17 @@
 /*
  * @Author: wfl
  * @LastEditors: wfl
- * @description: 
+ * @description:
  * @updateInfo: 本次更新内容：
  * @Date: 2021-03-24 10:47:08
- * @LastEditTime: 2021-03-24 11:40:00
+ * @LastEditTime: 2021-03-24 14:46:15
+ */
+/**
+ * @description: 获取浏览器类型
+ * @param {null}
+ * @return {String}
  */
 import getNavigator from './getNavigator'
-import getIEversion from './getIEversion'
 const getBrowserType = () => {
     const userAgent = getNavigator()
     if (userAgent.includes('Opera')) {
@@ -24,8 +28,9 @@ const getBrowserType = () => {
     }
     if (userAgent.includes("Edg")) {
         return "Edge";
-    } else {
-        getIEversion()
+    }
+    if (!!window.ActiveXObject || 'ActiveXObject' in window) {
+        return 'IE'
     }
     return '';
 }
