@@ -2,14 +2,14 @@
  * @Author: wfl
  * @LastEditors: wfl
  * @description: 
- * @updateInfo: æœ¬æ¬¡æ›´æ–°å†…å®¹ï¼š
+ * @updateInfo: ±¾´Î¸üĞÂÄÚÈİ£º
  * @Date: 2021-03-24 11:53:07
  * @LastEditTime: 2021-03-24 11:58:39
 -->
 # getBrowserVersion
-# è·å–æµè§ˆå™¨ç±»åˆ«ï¼ŒIEæµè§ˆå™¨ç‰ˆæœ¬
+# »ñÈ¡ä¯ÀÀÆ÷Àà±ğ£¬IEä¯ÀÀÆ÷°æ±¾
 
-## ç”¨æ³•
+## ÓÃ·¨
 
     // use npm
 	npm i verdaccio
@@ -18,7 +18,7 @@
     // use pnpm
 	pnpm i verdaccio
 	
-	// ä½¿ç”¨
+	// Ê¹ÓÃ
 	import { getNavigator, getBrowserType, getIEversion } from 'get-browser-version'
 	
 	.....
