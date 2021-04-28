@@ -1,6 +1,6 @@
 {
-  "name": "get-browser-version",
-  "version": "0.0.8",
+  "name": "browser-type-device",
+  "version": "1.0.0",
   "description": "获取浏览器类别;获取浏览器当前模式（极速、兼容）",
   "main": "index.js",
   "directories": {

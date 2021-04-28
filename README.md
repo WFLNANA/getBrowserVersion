@@ -1,24 +1,34 @@
 <!--
  * @Author: wfl
  * @LastEditors: wfl
- * @description: 
- * @updateInfo: ±¾´Î¸üĞÂÄÚÈİ£º
+ * @description:
+ * @updateInfo: æœ¬æ¬¡æ›´æ–°å†…å®¹ï¼š
  * @Date: 2021-03-24 11:53:07
- * @LastEditTime: 2021-03-24 11:58:39
+ * @LastEditTime: 2021-04-28 13:42:50
 -->
-# getBrowserVersion
-# »ñÈ¡ä¯ÀÀÆ÷Àà±ğ£¬IEä¯ÀÀÆ÷°æ±¾
 
-## ÓÃ·¨
+# getBrowserVersion
+
+# è·å–æµè§ˆå™¨ç±»åˆ«ï¼Œæµè§ˆå™¨ç‰ˆæœ¬
+# è·å–å½“å‰å¤„äºæ‰‹æœºè¿˜æ˜¯PCç«¯
+# isPC: true -PCç«¯  false -æ‰‹æœºç«¯
+
+## ç”¨æ³•
 
     // use npm
-	npm i verdaccio
+    npm i browser-type-device
     // use yarn
-	yarn global add verdaccio
+    yarn add browser-type-device
     // use pnpm
-	pnpm i verdaccio
-	
-	// Ê¹ÓÃ
-	import { getNavigator, getBrowserType, getIEversion } from 'get-browser-version'
-	
-	.....
+    pnpm i browser-type-device
+
+    // ä½¿ç”¨
+    import { getBrowserType,
+			getIEversion,
+			getNavigator,
+			isFast,
+			isPC,
+			isPhone,
+			getDeviceType } from 'get-browser-version'
+
+    .....
